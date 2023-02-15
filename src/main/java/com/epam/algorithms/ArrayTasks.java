@@ -24,7 +24,11 @@ public class ArrayTasks {
      * length = 1  -> [1] length = 3  -> [1, 2, 3] length = 5  -> [1, 2, 3, 4, 5]
      */
     public int[] generateNumbers(int length) {
-        return null;
+        int[] integers = new int[length];
+        for (int i = 0; i < length; i++) {
+            integers[i] = i + 1;
+        }
+        return integers;
     }
 
     /**
